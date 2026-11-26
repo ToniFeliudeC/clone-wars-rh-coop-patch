@@ -1,0 +1,21 @@
+# Game binaries and anything derived from them (copyrighted, never commit)
+re/
+*.BIN
+*.elf
+*.self
+*.sprx
+*.asm
+# Ghidra project and decompiler output (derived from the game)
+ghidra/proj.gpr
+ghidra/proj.rep/
+ghidra/out/
+ghidra/*.log
+ghidra/dead.txt
+# Personal saves, logs and test captures
+captures/
+backups/
+*.DAT
+*.log
+# Python
+__pycache__/
+*.pyc
